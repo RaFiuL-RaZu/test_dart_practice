@@ -1,13 +1,22 @@
 
 
 void main(){
-  var num1=20;
-  var num2=10;
+  print("Example of Assignment operators");
 
-  print("Output is ${num1+num2}");
-  print("Output is ${num1-num2}");
-  print("Output is ${num1*num2}");
-  print("Output is ${num1/num2}");
-  print("Output is ${num1%num2}");
+  var n1 = 10;
+  var n2 = 5;
 
+  n1+=n2;
+  print("n1+=n2 = ${n1}");
+
+  n1-=n2;
+  print("n1-=n2 = ${n1}");
+
+  n1*=n2;
+  print("n1*=n2 = ${n1}");
+
+  n1~/=n2;
+  print("n1~/=n2 = ${n1}");
+  n1%=n2;
+  print("n1%=n2 = ${n1}");
 }

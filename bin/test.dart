@@ -1,7 +1,12 @@
 
 void main() {
-  var num = 10;
-  var name = "JavaTpoint";
-  print(num is int);
-  print(name is! String);
+  var a=20;
+  var b=10;
+
+  if(a%2==0 && b%3==0){
+    print("True");
+  }
+  else{
+    print("False");
+  }
 }

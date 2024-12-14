@@ -1,11 +1,11 @@
 
 void main(){
 
- var num1=25;
+ var num1=40;
  var num2=20;
 
 
- num1*=num2;
- print("Addition=${num1}");
+ var num=num1/num2;
+ print("Addition=${num}");
 
 }

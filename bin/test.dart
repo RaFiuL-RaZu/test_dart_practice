@@ -1,11 +1,7 @@
 
-void main(){
-
- var a=21;
- var b=20;
-
- var big=a==b;
-
- print("a is greater than :"+big.toString());
-
+void main() {
+  var num = 10;
+  var name = "JavaTpoint";
+  print(num is int);
+  print(name is! String);
 }

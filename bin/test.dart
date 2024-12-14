@@ -1,11 +1,11 @@
 
 void main(){
 
- var num1=60;
- var num2=20;
+ var a=25;
+ var b=20;
 
+ var big=a<b;
 
- num1%=num2;
- print("=${num1}");
+ print("a is greater than :"+big.toString());
 
 }

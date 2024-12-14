@@ -5,7 +5,7 @@ void main(){
  var num2=20;
 
 
- num1-=num2;
+ num1*=num2;
  print("Addition=${num1}");
 
 }

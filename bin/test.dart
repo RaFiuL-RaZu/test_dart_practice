@@ -1,10 +1,14 @@
 
+import 'dart:convert';
+
 void main() {
-  var a = num.parse("20.5");
-  var b= num.parse("19.3");
+  String str1='Welcome to dart';
+  String str2="I am a programar";
+  String str3="""THIS IS MULTILINE""";
 
-  var c=a+b;
 
-  print("The sum is=${c}");
+  print(str1);
+  print(str2);
+  print(str3);
 }
 

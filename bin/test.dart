@@ -1,8 +1,9 @@
 
 void main() {
-  const name="Razu";
-  const name2="Rafiul";
+  int r = 10;
+  double pi = 3.14;
+  double area = pi * 10 * 10;
 
-  print(name);
-  print(name2);
+  print(area);
 }
+

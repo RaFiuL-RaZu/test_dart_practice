@@ -1,8 +1,6 @@
 
 void main() {
-  var a=null;
-  var b=28;
+  final name="Razu";
 
-  var Big= a??b;
-  print(Big);
+  print(name);
 }

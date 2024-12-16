@@ -1,9 +1,10 @@
 
 void main() {
-  int r = 10;
-  double pi = 3.14;
-  double area = pi * 10 * 10;
+  var a = num.parse("20.5");
+  var b= num.parse("19.3");
 
-  print("The area is=${area}");
+  var c=a+b;
+
+  print("The sum is=${c}");
 }
 

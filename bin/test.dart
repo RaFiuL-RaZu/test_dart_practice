@@ -1,7 +1,8 @@
 
 void main() {
-  var a=25;
-  var b=20;
+  var a=null;
+  var b=28;
 
-  print("a >> b=${a>>b}");
+  var Big= a??b;
+  print(Big);
 }

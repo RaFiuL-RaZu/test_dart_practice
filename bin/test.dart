@@ -2,11 +2,10 @@
 
 void main() {
 
-  const city=['Dhaka','Rangpur','Kurigram','Bogura','Dinajpur'];
+  var numbers=[5,10,15,20,25,30];
+  numbers.insert(3,12);
 
-  print(city);
-
-
+print(numbers);
 
 
 

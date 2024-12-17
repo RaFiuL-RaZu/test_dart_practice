@@ -1,8 +1,8 @@
 
 
 void main() {
-  var city=['Dhaka','Rangpur','Barishal','Khulna','Kurigram'];
+  var city=['Dhaka','Rangpur','Barishal','Khulna','Kurigram',20,25,30];
 
-  print(city[4]);
+  print(city[6]);
 
 }

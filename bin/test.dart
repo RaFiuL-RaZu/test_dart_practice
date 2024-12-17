@@ -6,6 +6,7 @@ void main() {
 
   print(city);
   city.add("Cumilla");
+  city.remove("Dhaka");
 
   print(city);
 

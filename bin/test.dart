@@ -1,8 +1,13 @@
 
 
 void main() {
-  var person={'Name':'Rafiul', 'Age':23, 'Branch':'Computer'};
 
-  print(person['Branch']);
+  var x=25;
+  print(x++);
+  print(x++);
+  print(x++);
+  print(x++);
+  print(x++);
+  print(x++);
 
 }

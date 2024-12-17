@@ -2,14 +2,11 @@
 
 void main() {
 
-  var x=25;
+  var city=['Dhaka','Rangpur','Kurigram','Bogura','Dinajpur'];
 
-  print(++x);
-  print(++x);
-  print(++x);
-  print(++x);
-  print(++x);
-  print(++x);
+  var result=city.length;
+
+  print(result);
 
 
 

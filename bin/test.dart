@@ -1,21 +1,21 @@
 
  void main(){
 
-  var result=85;
-
-  if(result>=80){
-    print("GOT GPA 5.");
-  }
-  else if(result>=60){
-    print("GOT GPA 4.");
-  }
-  else if(result>=40){
-    print("GOT GPA 3. ");
-
+  var a=85;
+  var b=86;
+  var c=65;
+  
+  if(a>b){
+    if(a>c){
+      print("A is big");
+    }
   }
   else{
-    print("You are Fail");
+    print("C is big");
   }
+  
+
+  
 
 
 

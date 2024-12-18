@@ -7,7 +7,7 @@
   person['Class']='Diploma';
   person['Dept']='Computer';
   person['CGPA']='3.88';
-  person.addAll({'Age': 20,'Blood': 'B+'});
+  person.clear();
 
   print(person);
 

@@ -1,7 +1,7 @@
 
  void main(){
 
-  var result=33;
+  var result=85;
 
   if(result>=80){
     print("GOT GPA 5.");

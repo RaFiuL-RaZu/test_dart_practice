@@ -1,9 +1,9 @@
 
  void main(){
 
-  var number=25;
+  var number=35;
   if(number>30){
-    print("Big");
+    print("The number is big than 30");
   }
 
  }

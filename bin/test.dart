@@ -7,5 +7,6 @@
     'Branch':'Computer'
   };
   person['Country']='Bangladesh';
+  person['District']='Kurigram';
   print(person);
  }

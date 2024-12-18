@@ -1,7 +1,7 @@
 
  void main(){
 
-  var number=25;
+  var number=15;
   if(number>18){
     print("You are adult.");
   }

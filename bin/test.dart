@@ -1,22 +1,13 @@
 
  void main(){
 
-  var roll=8;
+  var n=10;
+  var i;
 
-  switch(roll){
-   case 5:
-    print("Name is Mahin");
-    break;
-   case 6:
-    print("Name is imam");
-    break;
-   case 7:
-    print("Name is Razu");
-    break;
+  for(i=0; i<n;i++){
+   print(i);
 
-   default:
-    print("Is not Found");
-    break;
+
 
   }
   

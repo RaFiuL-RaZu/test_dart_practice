@@ -1,21 +1,21 @@
 
  void main(){
 
-  var x=3;
+  var roll=7;
 
-  switch(x){
-   case 1:
-    print("this is 1");
+  switch(roll){
+   case 5:
+    print("Name is Mahin");
     break;
-   case 2:
-    print("This is 2");
+   case 6:
+    print("Name is imam");
     break;
-   case 3:
-    print("This is 3");
+   case 7:
+    print("Name is Razu");
     break;
 
    default:
-    print("Is not");
+    print("Is not Found");
     break;
 
   }

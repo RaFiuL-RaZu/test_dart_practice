@@ -1,13 +1,13 @@
 
  void main(){
 
-  var number=15;
-  if(number>18){
-    print("You are adult.");
+  var number=-20;
+  if(number>0){
+    print("The number is possetive.");
   }
 
   else{
-    print("Not adult");
+    print("Negative");
   }
 
  }

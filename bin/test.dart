@@ -2,7 +2,7 @@
  void main(){
 
   var a=85;
-  var b=86;
+  var b=55;
   var c=65;
   
   if(a>b){

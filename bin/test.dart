@@ -2,13 +2,12 @@
  void main(){
 
   var x=35;
-  var y=25;
 
-  if(x>y){
-    print("X Is Gratter Than Y");
+  if(x%2==0){
+    print("Even Number");
   }
   else{
-    print("Y Is Gratter Than X");
+    print("Odd Number");
   }
 
  }

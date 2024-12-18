@@ -1,7 +1,7 @@
 
  void main(){
 
-bool check=20>10;
+bool check=5>10;
 print(check);
 
  }

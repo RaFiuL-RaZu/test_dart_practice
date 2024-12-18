@@ -1,13 +1,12 @@
 
  void main(){
 
-  var n=10;
-  var i;
-
-  for(i=0; i<n;i++){
-   print(i);
-
-  }
+var a=1;
+var max=15;
+while(a<max){
+ print(a);
+ a++;
+}
 
 
  }

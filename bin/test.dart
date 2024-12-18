@@ -11,7 +11,7 @@ var productList=[
   {'product':'biscuit','price':40},
  ];
  for(var oneproduct in productList){
-  print(oneproduct['price']);
+  print(oneproduct['product']);
   }
 
  }

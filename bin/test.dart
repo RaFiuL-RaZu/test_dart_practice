@@ -1,16 +1,14 @@
 
  void main(){
 
-  var number=0;
-  if(number>0){
-    print("The number is possetive.");
-  }
-  else if(number==0){
-    print("Zero");
-  }
+  var x=20;
+  var y=25;
 
+  if(x>y){
+    print("X Is Gratter Than");
+  }
   else{
-    print("Negative");
+    print("Y Is Gratter Than X");
   }
 
  }

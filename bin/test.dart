@@ -12,7 +12,7 @@ var productList=[
  ];
  for(var oneproduct in productList){
 
-  var item="Product Name is ${oneproduct['product']}. Pirce is ${oneproduct['price']}";
+  var item="Product Name is ${oneproduct['product']} and Pirce is ${oneproduct['price']} taka";
   print(item);
   }
 

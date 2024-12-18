@@ -8,6 +8,8 @@
   person['Dept']='Computer';
   person['CGPA']='3.88';
   person.addAll({'Age': 20});
-print(person);
+  person.addAll({'Blood': 'B+'});
+
+  print(person);
 
  }

@@ -7,7 +7,7 @@
   person['Class']='Diploma';
   person['Dept']='Computer';
   person['CGPA']='3.88';
-
-print(person.isNotEmpty);
+  person.addAll({'Age': 20});
+print(person);
 
  }

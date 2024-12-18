@@ -1,11 +1,7 @@
 
  void main(){
 
-var i=10;
-do {
- print(i);
- i++;
-}
-while(i<20);
+bool check=20>10;
+print(check);
 
  }

@@ -1,26 +1,24 @@
 
  void main(){
 
-  var a=40;
-  var b=50;
-  var c=30;
-  
-  if(a>b){
-    if(a>c){
-      print("A is big");
-    }
-    else{
-      print("C is big");
-    }
+  var x=3;
+
+  switch(x){
+   case 1:
+    print("this is 1");
+    break;
+   case 2:
+    print("This is 2");
+    break;
+   case 3:
+    print("This is 3");
+    break;
+
+   default:
+    print("Is not");
+    break;
+
   }
-
-
-  else if(b>c){
-    print("B Is big");
-   }
-  else{
-    print("C Is Big");
-   }
   
 
   

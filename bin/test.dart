@@ -1,9 +1,12 @@
 
  void main(){
 
-  var number=35;
-  if(number>30){
-    print("The number is big than 30");
+  var number=25;
+  if(number>18){
+    print("You are adult.");
+  }
+  {
+    print("Not adult");
   }
 
  }

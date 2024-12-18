@@ -7,7 +7,7 @@
   person['Class']='Diploma';
   person['Dept']='Computer';
   person['CGPA']='3.88';
-  person.clear();
+  person.remove("Roll");
 
   print(person);
 

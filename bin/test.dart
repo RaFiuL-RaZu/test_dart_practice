@@ -1,11 +1,9 @@
 
 
 void main() {
+  var myCityset={'Dhaka','Barishal','Khulna','Rangpur','Kurigram'};
 
-  var numbers=[5,10,15,20,25,30];
-  numbers.removeAt(0);
-
-print(numbers);
+print(myCityset);
 
 
 

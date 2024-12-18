@@ -8,6 +8,6 @@
   person['Dept']='Computer';
   person['CGPA']='3.88';
 
-print(person.values);
+print(person.length);
 
  }

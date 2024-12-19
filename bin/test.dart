@@ -1,6 +1,6 @@
 
  void main(){
-  var num=11;
+  var num=14;
 
   if(num%2==0){
    print("Even number");

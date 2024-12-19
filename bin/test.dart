@@ -3,7 +3,7 @@
 
 void main(){
 
- var alphabet="a";
+ var alphabet="E";
  
  switch(alphabet){
   case "A":

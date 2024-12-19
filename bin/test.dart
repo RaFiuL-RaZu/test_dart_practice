@@ -3,7 +3,7 @@
 
 void main(){
 
- var charecter='A';
+ var charecter='d';
 
  if(charecter==charecter.toUpperCase()){
   print("Charecter is uppercase");

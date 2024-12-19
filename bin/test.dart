@@ -1,15 +1,13 @@
 
  void main(){
 
- var num=45;
+ var score=35;
 
- if(num>0){
-  print("Possitive Number");
+ if(score>40){
+  print("You will be pass");
  }
-else if(num==0){
- print("Zero");
+ else{
+  print("Otherwise you fail");
  }
-else{
- print("Negative Number");
- }
+
  }

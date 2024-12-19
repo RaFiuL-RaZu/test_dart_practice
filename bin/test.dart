@@ -3,20 +3,20 @@
 
 void main(){
 
- var alphabet="E";
- 
- switch(alphabet){
-  case "A":
-  case "E":
-  case "I":
-  case "O":
-  case "U":
-   print("Vowel");
-   break;
+ var charecter='A';
 
-   default:
-   print("Consonant");
+ if(charecter==charecter.toUpperCase()){
+  print("Charecter is uppercase");
 
  }
+ else if(charecter==charecter.toLowerCase()){
+  print("Lowercase");
+
+ }
+ else{
+  print("Not charecter");
+ }
+ 
+
 
  }

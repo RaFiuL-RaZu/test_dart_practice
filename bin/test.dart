@@ -1,19 +1,15 @@
 
  void main(){
 
- var a=40;
- var b=30;
- var c=25;
+ var num=45;
 
- if(a>b && a>c){
-  print("a is bigger than others");
+ if(num>0){
+  print("Possitive Number");
  }
- else if(b>c){
-  print("b is bigger than others");
+else if(num==0){
+ print("Zero");
  }
- else{
-  print("c ig bigger than others");
+else{
+ print("Negative Number");
  }
-
-
  }

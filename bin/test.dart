@@ -1,15 +1,19 @@
 
  void main(){
 
- var celcius=35;
- var farenheite=((9*celcius)/5)+32;
+ var a=40;
+ var b=30;
+ var c=25;
 
- print(farenheite);
-
-
-
-
-
+ if(a>b && a>c){
+  print("a is bigger than others");
+ }
+ else if(b>c){
+  print("b is bigger than others");
+ }
+ else{
+  print("c ig bigger than others");
+ }
 
 
  }

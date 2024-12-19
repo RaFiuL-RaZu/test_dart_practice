@@ -3,7 +3,7 @@
 
 void main(){
 
- var num=70;
+ var num=40;
 
  if((num%5==0) && (num%7==0)){
   print("Divisible");

@@ -3,25 +3,19 @@
 
 void main(){
 
- var score=70;
+ var alphabet="a";
  
- switch(score){
-  case 90:
-  case 80:
-   print("A+");
+ switch(alphabet){
+  case "A":
+  case "E":
+  case "I":
+  case "O":
+  case "U":
+   print("Vowel");
    break;
-  case 70:
-  case 60:
-   print("B+");
-   break;
-  case 40:
-   print("C+");
-   break;
-  case 30:
-   print("D+");
-   break;
-  default:
-   print("Fail");
+
+   default:
+   print("Consonant");
 
  }
 

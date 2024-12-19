@@ -3,18 +3,13 @@
 
 void main(){
 
- String charecter='2';
+ var num=70;
 
- if(charecter==charecter.toUpperCase()){
-  print("Charecter is uppercase");
-
- }
- else if(charecter==charecter.toLowerCase()){
-  print("Lowercase");
-
+ if((num%5==0) && (num%7==0)){
+  print("Divisible");
  }
  else{
-  print(" Not charecter");
+  print("NOT divisible");
  }
  
 

@@ -1,9 +1,14 @@
 
  void main(){
-  var length=20;
-  var width=15;
 
-  print("Rectengle area is=${length*width}");
+ var profit=10000;
+ var timeDays=15;
+ var percentage=20;
+ var area=(profit*timeDays*percentage)/100;
+
+ print(area);
+
+
 
 
 

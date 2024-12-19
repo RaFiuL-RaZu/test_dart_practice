@@ -3,7 +3,7 @@
 
 void main(){
 
- var charecter='d';
+ String charecter='2';
 
  if(charecter==charecter.toUpperCase()){
   print("Charecter is uppercase");
@@ -14,7 +14,7 @@ void main(){
 
  }
  else{
-  print("Not charecter");
+  print(" Not charecter");
  }
  
 

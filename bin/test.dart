@@ -1,12 +1,14 @@
 
  void main(){
-  var x=10;
-  var y=15;
+  var num=11;
 
-  x=x+y;
-  y=x-y;
-  x=x-y;
-  print(x);
-  print(y);
+  if(num%2==0){
+   print("Even number");
+  }
+  else {
+   print("Odd number");
+  }
+
+
 
  }

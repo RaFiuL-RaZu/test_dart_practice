@@ -3,27 +3,26 @@
 
 void main(){
 
- var score=50;
+ var score=70;
  
- if(score>80){
-  print("You got A+ ");
+ switch(score){
+  case 90:
+  case 80:
+   print("A+");
+   break;
+  case 70:
+  case 60:
+   print("B+");
+   break;
+  case 40:
+   print("C+");
+   break;
+  case 30:
+   print("D+");
+   break;
+  default:
+   print("Fail");
+
  }
- else if(score>70){
-  print("You got B+");
- }
- else if(score>60){
-  print("You got A-");
- }
- else if(score>50){
-  print("You got B-");
- }
- else if(score>40){
-  print("You got C+");
- }
- else if(score>33){
-  print("You got D+");
- }
-else{
- print("You are Fail");
- }
+
  }

@@ -1,6 +1,13 @@
 
  void main(){
   var x=5;
-  print("Square of number is=${x*x}");
+  var y=10;
+  var z;
+
+  z=x;
+  x=y;
+  y=z;
+  print(x);
+  print(y);
 
  }

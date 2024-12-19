@@ -1,12 +1,11 @@
 
  void main(){
-  var x=5;
-  var y=10;
-  var z;
+  var x=10;
+  var y=15;
 
-  z=x;
-  x=y;
-  y=z;
+  x=x+y;
+  y=x-y;
+  x=x-y;
   print(x);
   print(y);
 

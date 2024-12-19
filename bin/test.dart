@@ -1,13 +1,11 @@
 
  void main(){
-  var num=14;
+  var length=20;
+  var width=15;
 
-  if(num%2==0){
-   print("Even number");
-  }
-  else {
-   print("Odd number");
-  }
+  print("Rectengle area is=${length*width}");
+
+
 
 
 

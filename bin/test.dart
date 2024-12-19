@@ -1,13 +1,14 @@
 
  void main(){
 
- var score=35;
+ var year=2024;
 
- if(score>40){
-  print("You will be pass");
- }
- else{
-  print("Otherwise you fail");
- }
+if((year%4==0 )&& (year%100!=0 || year%400==0 )){
+
+ print("leap year");
+}
+else{
+ print("Not leap year");
+}
 
  }

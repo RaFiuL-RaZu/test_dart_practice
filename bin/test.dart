@@ -1,5 +1,8 @@
 void main(){
   int ? a=10;
-  int b=a+15;
-  print(b);
+
+  if(a!=null){
+    int b=a+10;
+    print(b.floor());
+  }
 }

@@ -1,6 +1,9 @@
 
-
 void main(){
-  double ? a;
-  print(a);
+  int ? a=10;
+  if(a!=null){
+    int b=10+a;
+    print(b);
+  }
+
 }

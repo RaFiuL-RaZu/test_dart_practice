@@ -1,6 +1,6 @@
 
 
 void main(){
-  int ? a;
+  double ? a;
   print(a);
 }

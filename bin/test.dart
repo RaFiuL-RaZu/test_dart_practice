@@ -1,9 +1,7 @@
-
+int sum(){
+  return 10;
+}
 void main(){
-
-  int ?a;
-  int b=a?.floor()??10;
-  print(b);
-
-
+  var a=sum();
+  print(a);
 }

@@ -1,7 +1,7 @@
 int ? sum(){
-  return null;
+  return 20;
 }
 void main(){
-  var a=sum();
+  int ?a=sum();
   print(a);
 }

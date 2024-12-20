@@ -1,7 +1,7 @@
 int ? sum(){
-  return 20;
+  return 15;
 }
 void main(){
-  int ?a=sum();
+  int ?a=sum()!;
   print(a);
 }

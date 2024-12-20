@@ -1,5 +1,5 @@
-int sum(){
-  return 10;
+int ? sum(){
+  return null;
 }
 void main(){
   var a=sum();

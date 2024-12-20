@@ -1,7 +1,6 @@
 
 void main(){
 
-  int ? a;
-  int b=10+(a??10);
-  print(b);
+  double b=20.5;
+  print(b.floor());
 }

@@ -1,6 +1,7 @@
 
 void main(){
 
-  double b=20.5;
-  print(b.floor());
+  double ?b;
+  print(b?.floor());
+
 }

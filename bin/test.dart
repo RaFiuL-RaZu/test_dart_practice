@@ -1,11 +1,14 @@
 
- import 'dart:io';
 
- void main(){
-  var i;
-  for(i=0; i<20;i++){
-  if(i%2!=0)
-   print(i);
-  }
+addTwoNumber(){
+ var x=2;
+ var y=3;
+ print(x+y);
+}
 
- }
+
+void main(){
+ addTwoNumber();
+
+}
+

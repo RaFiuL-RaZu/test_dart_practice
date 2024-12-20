@@ -1,15 +1,15 @@
 
 
 addTwoNumber(int x, double y){
-
- print(x+y);
+ return x+y;
 }
 
 
 void main(){
- addTwoNumber(4,6.5);
- addTwoNumber(5,6.3);
- addTwoNumber(7,6.8);
+ var result=addTwoNumber(4,6.5);
+
+ print(result);
+
 
 
 }

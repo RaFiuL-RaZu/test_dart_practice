@@ -2,6 +2,7 @@ import 'dart-practice.dart';
 
 void main(){
 
- var obj=MyClass("I am a cobstructor");
+ var obj=MyClass();
+ obj.addTwoNumber();
 
 }

@@ -7,4 +7,7 @@ class MyClass{
    var result=this.num1+this.num2;
    print(result);
  }
+ Myfunction(){
+   this.addTwoNumber();
+ }
 }

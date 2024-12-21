@@ -1,8 +1,17 @@
-import 'dart-practice.dart';
+class Father{
+
+  BaperTaka(){
+    print("Total amount = 80000");
+  }
+}
+
+class Son extends Father{
+
+}
+
 
 void main(){
 
- var obj=MyClass();
- obj.Myfunction();
-
+  var SonObj=Son();
+  SonObj.BaperTaka();
 }

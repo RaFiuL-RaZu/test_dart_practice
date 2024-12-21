@@ -12,6 +12,6 @@ class Son extends Father{
 
 void main(){
 
-  var SonObj=Son();
-  SonObj.BaperTaka();
+  var fatherObj=Father();
+  fatherObj.BaperTaka();
 }

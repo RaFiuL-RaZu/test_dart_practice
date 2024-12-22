@@ -6,14 +6,12 @@ class Father{
 }
 
 class Son extends Father{
-  SonTaka(){
+  BaperTaka(){
     print("Total amount=5000000");
   }
 
 }
 void main(){
-  var Fatherobj=Father();
-  Fatherobj.BaperTaka();
 
   var Sonobj=Son();
   Sonobj.BaperTaka();

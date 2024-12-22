@@ -1,4 +1,4 @@
-class Father{
+abstract class Father{
   BaperTaka(){
     print("Total amount=8000000");
   }
@@ -15,6 +15,5 @@ void main(){
 
   var SonObj=Son();
   SonObj.BaperTaka();
-  var FatherObj=Father();
-  FatherObj.BaperTaka();
+
 }

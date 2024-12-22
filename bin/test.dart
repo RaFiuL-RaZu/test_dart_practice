@@ -13,6 +13,6 @@ class Son extends Father{
 }
 void main(){
 
-  var Sonobj=Son();
-  Sonobj.BaperTaka();
+  var FatherObj=Father();
+  FatherObj.BaperTaka();
 }

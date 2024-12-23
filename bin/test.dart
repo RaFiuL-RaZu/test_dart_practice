@@ -3,5 +3,5 @@ void main(){
  var list=['Razu','Sazu','RaFi','Ripon','Raihan'];
 
 
- print(list.indexed);
+ print(list.elementAt(3));
 }

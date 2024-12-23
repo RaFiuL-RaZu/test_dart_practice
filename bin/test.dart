@@ -1,8 +1,6 @@
 void main(){
 
- String str1="Coding is Fun";
- String str2=" Nothing is Done";
+ var list=['Razu','Sazu','RaFi','Ripon','Raihan'];
 
- bool val=str1==str2;
- print(val);
+ print(list[0]);
 }

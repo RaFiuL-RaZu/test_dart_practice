@@ -3,5 +3,5 @@ void main(){
  var list=['Razu','Sazu','RaFi','Ripon','Raihan'];
 
 
- print(list.length);
+ print(list.reversed);
 }

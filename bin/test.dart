@@ -1,8 +1,11 @@
 void main(){
 
- var num=35;
+ int num1= 10;
+ double num2=20.25;
+ print(num1+num2);
 
- if(num<40){
-   print("Number is smaller than 40.");
- }
+ var a1= num.parse("15");
+ var b1=num.parse("25");
+ var c1=a1+b1;
+ print(c1);
 }

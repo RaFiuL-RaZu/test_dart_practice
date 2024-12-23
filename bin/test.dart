@@ -1,11 +1,9 @@
 void main(){
 
- int num1= 10;
- double num2=20.25;
- print(num1+num2);
+ String string="This is Gen Z Bro";
+ String str1="Coding is Fun";
+ String str2=" Nothing is Done";
 
- var a1= num.parse("15");
- var b1=num.parse("25");
- var c1=a1+b1;
- print(c1);
+ print(string);
+ print(str1+ str2);
 }

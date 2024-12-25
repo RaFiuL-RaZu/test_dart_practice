@@ -1,6 +1,9 @@
 void main(){
-  var map={'Name':'Rafiul','Age':24,'Brand':'Computer'};
+  var map=new Map();
 
- var obj=map.remove('Name');
-  print(obj);
+  map[0]='Razu';
+  map[1]=24;
+  map[2]='Computer';
+
+  print(map);
 }

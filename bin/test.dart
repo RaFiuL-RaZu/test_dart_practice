@@ -1,8 +1,6 @@
 void main(){
+  var map={'Name':'Rafiul','Age':24,'Brand':'Computer'};
 
- var map= {'Name':'Rafiul','Age':24,'Brand':'Computer'
-};
 
- print(map['Brand']);
-
+  print(map.length);
 }

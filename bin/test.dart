@@ -5,5 +5,5 @@ void main(){
   map[1]=24;
   map[2]='Computer';
 
-  print(map);
+  print(map[1]);
 }

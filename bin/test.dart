@@ -1,9 +1,8 @@
 void main(){
 
- var list=['Razu','Sazu','RaFi','Ripon','Raihan'];
-
- list.removeWhere((item)=>item.length==3);
- print(list);
-
+ var name1= <String> {'This is for you'};
+ print(name1);
+ var name2=<String>{'This is our'};
+ print(name2);
 
 }

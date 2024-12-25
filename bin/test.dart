@@ -1,9 +1,6 @@
 void main(){
-   var numbers=[1,2,3,4,5,6,7,88];
+   var numbers=[10,21,3,41,5,6,7,88];
    
-   var number=numbers.reduce((razu,sazu)=> razu>sazu? razu:sazu);
-
-
-
-   print(number);
+   numbers.sort();
+   print(numbers);
 }

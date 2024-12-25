@@ -1,6 +1,6 @@
 void main(){
-   var numbers=[10,21,3,21,5,6,7,88];
 
+  var ages={'Razu':24,'Sazu':18};
 
-   print(numbers.toSet().toList());
+  print(ages);
 }

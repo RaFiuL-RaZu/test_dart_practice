@@ -1,9 +1,7 @@
 void main(){
-  var map=new Map();
+   var numbers=[1,2,3,4,5,6];
+   
+   var number=numbers.where((number)=>number.isEven).toList();
 
-  map[0]='Razu';
-  map[1]=24;
-  map[2]='Computer';
-
-  print(map[1]);
+   print(number);
 }

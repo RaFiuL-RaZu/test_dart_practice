@@ -1,11 +1,12 @@
-void main(){
+int sumOfElements(List<int> numbers) {
+  int sum = 0;
+  for (int number in numbers) {
+    sum += number;
+  }
+  return sum;
+}
 
-  var map1={'Razu':24,'Sazu':18};
-  var map2={'Rafi':30, 'Sazu':20};
-  
-
-  var margedmap={...map1,...map2};
-
-  print(margedmap);
-
+void main() {
+  List<int> numbers = [1, 2, 3, 4, 5];
+  print("The sum of the elements is: ${sumOfElements(numbers)}");
 }

@@ -1,12 +1,11 @@
 void main(){
 
-  var ages={'Razu':24,'Sazu':18,'Rafi':25};
+  var map1={'Razu':24,'Sazu':18};
+  var map2={'Rafi':30, 'Sazu':20};
   
 
-   bool name=ages.containsKey('Razu');
-   bool age=ages.containsValue(24);
+  var margedmap={...map1,...map2};
 
-   print(name);
-   print(age);
+  print(margedmap);
 
 }

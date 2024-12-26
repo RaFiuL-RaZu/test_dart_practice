@@ -1,7 +1,7 @@
 void main() {
-  var map = {'Razu': 24, 'Rafi': 21};
+  var map = {'Razu': 24, 'Rafi': 21,'Raz':18};
 
-  map.forEach((key,value){
-    print('$key is $value years old');
-  });
+  var filtermap=map..removeWhere((key,value)=> value<20);
+  print(filtermap);
+
 }

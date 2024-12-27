@@ -1,11 +1,8 @@
 void main() {
-  var map = {'Razu': 24, 'Rafi': 21,'Raz':18};
+  var map = [1,2,5,7,9];
+  
+  var max=map.reduce((a,b)=>a>b?a:b);
 
-
-  var age=map.values.toList();
-  var name=map.keys.toList();
-
-  print(name);
-  print(age);
+  print(max);
 
 }

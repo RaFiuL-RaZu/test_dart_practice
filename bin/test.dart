@@ -1,10 +1,8 @@
 void main() {
   var map = [1,2,5,7,9];
   
-  var max=map.reduce((a,b)=>a>b?a:b);
-  var min=map.reduce((a,b)=>a<b?a:b);
+  var result=map.every((n)=> n%2==0);
 
-  print(max);
-  print(min);
+  print(result);
 
 }
